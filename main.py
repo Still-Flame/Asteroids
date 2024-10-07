@@ -1,7 +1,10 @@
-import pygame
+import pygame # type: ignore
+from constants import * 
 
-def game_launch():
+def main():
     print ("Starting asteroids!")
+    print (SCREEN_WIDTH)
+    print(SCREEN_HEIGHT)
 
 
 
